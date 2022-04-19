@@ -1,0 +1,101 @@
+.navbarabout{
+    .container{
+      nav{
+        div{
+          ul{
+            width: 600px !important;
+            li{
+              a{
+                font-weight: 600;
+                transition: all 0.3s ease;
+              }
+              a:hover{
+                color: #fe5c24 !important;
+                opacity: 0.7;
+              }
+            }
+          }
+        }
+      }
+    }
+  
+  .navbar__ul--li{
+    .ul{
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      left: -16px;
+      width: 130px !important;
+      max-height: 0px;
+      opacity: 0;
+      transition: all 0.4s ease;
+      border-radius: 7px;
+      li{
+        max-height: 0px;
+        opacity: 0;
+        transition: all 0.7s ease;
+      }
+    }
+  }
+  
+  .navbar__ul--li:hover .ul{
+    max-height: 100px !important;
+    opacity: 1;
+    li{
+      opacity: 1;
+        max-height: 100px;
+      }
+  }
+  
+    .navbar__background-img-about{
+      background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0% 50%, rgba(0, 0, 0, 0.5) 50% 100%), url("../img/xbreadcrumb.png.pagespeed.ic.OfmcEjG4sq.webp");
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+      background-position: center center;
+      h1{
+        font-weight: 700;
+        letter-spacing: 15px;
+        padding-top: 200px;
+      }
+      p{
+        font-size: 28px;
+      }
+    }
+}
+
+.dow__col-6{
+    h2{
+        color: #0c3e72;
+        font-weight: 600;
+        font-size: 45px;
+    }
+    h6{
+        line-height: 24px;
+    }
+}
+
+.page--height{
+    height: 500px !important;
+    display: flex;
+}
+
+.page--height--pos{
+    position: relative;
+    top: -200px;
+}
+
+.page--height--poss{
+    position: relative;
+    top: -340px;
+}
+
+.top--down{
+  h2{
+    color: #0c3e72;
+    font-size: 45px;
+  }
+  p{
+    font-size: 18px;
+  }
+}

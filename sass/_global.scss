@@ -1,0 +1,13 @@
+html{
+    box-sizing: border-box;
+    perspective: 2000px;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+}
+

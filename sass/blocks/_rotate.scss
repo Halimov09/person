@@ -1,0 +1,131 @@
+.rotate{
+    .rotate__container{
+        h2{
+            font-size: 40px;
+            color: #0c3e72;
+        }
+    }
+}
+.rotate__col--img{
+    h3{
+        color: #0c3e72; 
+    }
+    span{
+        i{
+            color: gold;
+            opacity: 0.7;
+        }
+    }
+    .pp{
+        opacity: 0.7;
+    }
+    p{
+        span{
+            color: red;
+            opacity: 0.7;
+        }
+    }
+    div{
+        .positionn{
+            top: 10%;
+            right: 10%;
+            z-index: 5;
+            transition: all 0.5s ease;
+            .rotate__col--icon{
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background-color: #fe5c24;
+                transform: rotateX(-180deg);
+                opacity: 0;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}
+
+
+.rotate__col--iconn{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    background-color: #a2c3e6a2;
+    transition: all 0.4s ease;
+    right: 9%;
+    top: 170px;
+}
+.rotate__col-4--img:hover .rotate__col--iconn{
+    transform: rotateY(90deg);
+}
+.rotate__col-4--img:hover .positionn{
+    transform: rotateX(180deg);
+    .rotate__col--icon{
+        opacity: 1 !important;
+    }
+}
+
+.rotate__bgcolor{
+    background-color: #0c3e72;
+    margin-top: 130px;
+    .container{
+        h2{
+            font-size: 40px;
+            padding-top: 120px;
+            span{
+                .rot--icon{
+                    height: 30px !important;
+                    width: 30px !important;
+                    background-color: #7cb3e6;
+                }
+            }
+        }
+    }
+}
+.rotate__col-info{
+    background-color: #0e477d;
+    span{
+        i{
+            color: gold;
+            opacity: 0.9;
+        }
+    }
+}
+
+.rotate__down{
+    .container{
+        h3{
+            color: #0e477d;
+            font-size: 50px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+.rotate__down-info{
+    h4{
+        color: #0c3e72 !important;
+    }
+    h6{
+        opacity: 0.7;
+    }
+}
+
+
+@media(max-width: 980px){
+    .positionn{
+        right: 46% !important;
+    }
+    .rotate__col--iconn{
+        right: 45% !important;
+    }
+ }
+
+ @media(max-width: 480px){
+    .navbar__background-img{
+        h1{
+            font-size: 13px !important;
+        }
+    }
+ }
+

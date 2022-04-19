@@ -1,0 +1,43 @@
+.footer{
+    background-color: #162b45;
+    .container{
+        .row{
+            .footer__row--link{
+                P{
+                    color: #fe5c24;
+                }
+                .input{
+                   input{
+                    background-color: #092742;
+                    color: white;
+                    height: 50px !important;
+                   }
+                   span{
+                       background-color: #fe5c24;
+                       height: 50px !important;
+                   }
+                }
+            }
+        }
+    }
+    .footer__down{
+        background-color: #08223a;
+        .container{
+            h6{
+                span{
+                    color: #fe5c24;
+                }
+            }
+        }
+    }
+}
+
+.footer__row--link{
+    a{
+        transition: all 0.2s ease;
+        text-decoration: none;
+    }
+    a:hover{
+        color: #fe5c24 !important;
+    }
+}
